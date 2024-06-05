@@ -25,7 +25,6 @@
         "contenu est un texte simple, vous pouvez utiliser la propriété <code>content</code>.<br/>",
         "<br/>",
         "👆 Les accordéons <code>&lt;dsfr-accordion&gt;</code> peuvent être placés dans un groupe <code>&lt;dsfr-accordions-group&gt;</code>.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -131,7 +130,6 @@
         "- <i>Tag</i> : <code>dsfr-accordions-group</code><br/>",
         "<br/>",
         "🔥 Seuls des éléments <code>&lt;dsfr-accordion&gt;</code> sont attendus au sein du point d'injection par défaut du <code>&lt;dsfr-accordions-group&gt;</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -288,7 +286,6 @@
         "- <i>Module</i> : <code>DsfrAlertModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrAlertComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-alert</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -435,7 +432,12 @@
         "<br/>",
         "Dans les pages de contenu longues, il est possible de proposer un bouton de retour en haut de page à la fin du contenu.<br/>",
         "<br/>",
-        "[Cf. Système Design de l'État](https://gouvfr.atlassian.net/wiki/spaces/DB/pages/217284725/Liens+-+Links<br/>"
+        "Cf. Système Design de l'État: <a href=\"https://gouvfr.atlassian.net/wiki/spaces/DB/pages/217284725/Liens+-+Links#Lien-de-retour-en-haut-de-page\">DsfrBackToTop</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrBackToTopModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrBackToTopComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-backtotop</code><br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -474,7 +476,6 @@
         "- <i>Module</i> : <code>DsfrBadgeModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrBadgeComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-badge</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -569,7 +570,6 @@
         "- <i>Module</i> : <code>DsfrBadgesGroupModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrBadgesGroupComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-badges-group</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -632,9 +632,7 @@
         "- <i>Composant</i> : <code>DsfrBreadcrumbComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-breadcrumb</code><br/>",
         "<br/>",
-        "<br/>",
         "Le fil d'Ariane est décrit par un tableau <code>DsfrLink[]</code>.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -700,7 +698,6 @@
         "- <i>Module</i> : <code>DsfrButtonModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrButtonComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-button</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -897,7 +894,6 @@
         "📌 La balise <code>&lt;dsfr-buttons-group&gt;</code> encapsule des tags <code>&lt;dsfr-button&gt;</code> placés dans un slot par défaut.<br/>",
         "<br/>",
         "📌 Prend 100% de la largeur du conteneur.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -1086,7 +1082,6 @@
         "👆 La carte existe en trois tailles (<code>SM</code>, <code>MD</code>, <code>LG</code>) et deux formats (horizontale et verticale), déclinés sur deux<br/>",
         "supports (desktop et mobile). Les cartes horizontales sont réservées au desktop (en mobile, une carte horizontale<br/>",
         "devient verticale).<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -1548,7 +1543,6 @@
         "- <i>Module</i> : <code>DsfrConsentBannerModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrConsentBannerComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-consent-banner</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -1721,7 +1715,6 @@
         "- un media, image, vidéo ou audio - obligatoire.<br/>",
         "- une légende - optionnelle.<br/>",
         "- un lien de transcription textuel - optionnel.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -1948,7 +1941,6 @@
         "- <i>Module</i> : <code>DsfrDateModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrDateComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-date</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -2083,7 +2075,6 @@
         "- <i>Tag</i> : <code>dsfr-display</code><br/>",
         "<br/>",
         "Le thème de l'application persiste dans un local storage.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -2355,7 +2346,6 @@
         "- <i>Module</i> : <code>DsfrFollowModule</code><br/>",
         "- <i>Composants</i> : <code>DsfrFollowComponent</code>, <code>DsfrFollowLinkComponent</code><br/>",
         "- <i>Tags</i> : <code>dsfr-follow</code>, <code>dsfr-follow-link</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -2542,7 +2532,6 @@
         "- <i>Module</i> : <code>DsfrFooterModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFooterComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-footer</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -2715,9 +2704,6 @@
         "<br/>",
         "👆 L'état <b>enable / disabled</b> est géré directement avec les instructions <code>control.disable()</code> ou <code>control.enable()</code>sans qu'il<br/>",
         "soit besoin d'ajouter <code>[disabled]=\"disabled\"</code> dans la déclaration du composant.<br/>",
-        "<br/>",
-        "<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -2875,7 +2861,6 @@
         "- <i>Module</i> : <code>DsfrFormEmailModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormEmailComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-email</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -3322,7 +3307,6 @@
         "<br/>",
         "🔥 Le composant <code>&lt;dsfr-form-fieldset&gt;</code> est un conteneur de composants (checkbox, radio, etc.). Pour l'utiliser, vous devez<br/>",
         "positionner la directive structurelle <code>*fieldsetElement</code> sur chaque instance de vos composants.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -3462,7 +3446,6 @@
         "- <i>Module</i> : <code>DsfrFormInputModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormInputComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-input</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -3910,7 +3893,6 @@
         "<br/>",
         "👆 Le lien '<i>Mot de passe oublié ?</i>' apparait uniquement si un lien <code>recoverylink</code> (ou route ou <code>routerLink</code>) est défini. Dans<br/>",
         "le cas d'une route, l'événement <code>recoveryRouteSelect</code> est émis avec la route comme valeur.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -4125,7 +4107,6 @@
         "- <i>Module</i> : <code>DsfrFormRadioModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormRadioComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-radio</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -4330,7 +4311,6 @@
         "- <i>Module</i> : <code>DsfrFormRadioRichModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormRadioRichComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-radio-rich</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -4523,7 +4503,6 @@
         "- <i>Module</i> : <code>DsfrFormSelectModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormSelectComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-select</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -4719,8 +4698,6 @@
         "- <i>Module</i> : <code>DsfrFormTelComponent</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormTelComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-tel</code><br/>",
-        "<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -5163,7 +5140,6 @@
         "- <i>Module</i> : <code>DsfrFormToggleModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrFormToggleComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-form-toggle</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -5357,7 +5333,6 @@
         "- <i>Tag</i> : <code>dsfr-form-toggles-group</code><br/>",
         "<br/>",
         "👆 Les <i>toggles</i> <code>&lt;dsfr-form-toggle&gt;</code> peuvent être placés dans un groupe <code>&lt;dsfr-form-toggles-group&gt;</code>.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -5496,7 +5471,6 @@
         "- <i>Module</i> : <code>DsfrFranceConnectComponent</code><br/>",
         "- <i>Composant</i> : <code>DsfrFranceConnectComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-franceconnect</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -5553,7 +5527,6 @@
         "- <i>Module</i> : <code>DsfrHeaderModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrHeaderComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-header</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -5839,7 +5812,6 @@
         "- <i>Module</i> : <code>DsfrLinkModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrLinkComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-link</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -6098,7 +6070,6 @@
         "- <i>Module</i> : <i>standalone</i><br/>",
         "- <i>Composant</i> : <code>DsfrLoginComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-login</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -6373,7 +6344,6 @@
         "- <i>Module</i> : <code>DsfModalModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrModalComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-modal</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -6679,7 +6649,6 @@
         "- <i>Tag</i> : <code>dsfr-pagination</code><br/>",
         "<br/>",
         "Selon le nombre de pages et la page sélectionnée, le composant de pagination peut comporter 1 ou 2 troncatures (<code>...)</code>.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -6913,7 +6882,6 @@
         "- <i>Tag</i> : <code>dsfr-range</code><br/>",
         "<br/>",
         "👆 La variante du curseur avec étapes n'est pas encore disponible à cause de cette anomalie: <a href=\"https://github.com/GouvernementFR/dsfr/issues/865\">DsfrRange</a>.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -7106,7 +7074,6 @@
         "- <i>Module</i> : <code>DsfrResponseModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrResponseComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-response</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -7330,7 +7297,6 @@
         "- <i>Module</i> : <code>DsfrSegmentedControlModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrSegmentedControlComponent</code><br/>",
         "- <i>Tags</i> : <code>dsfr-segmented-control</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -7454,7 +7420,6 @@
         "- <i>Module</i> : <code>DsfrShareModule</code><br/>",
         "- <i>Composants</i> : <code>DsfrShareComponent</code>, <code>DsfrShareLinkComponent</code><br/>",
         "- <i>Tags</i> : <code>dsfr-share</code>, <code>dsfr-share-link</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -7762,7 +7727,6 @@
         "- <i>Module</i> : <code>DsfrSkiplinksModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrSkipLinksComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-skiplinks</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -7875,7 +7839,6 @@
         "- <i>Module</i> : <code>DsfrSummaryModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrSummaryComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-summary</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -8009,7 +7972,11 @@
         "- <i>Composant</i> : <code>DsfrTableComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-table</code><br/>",
         "<br/>",
-        "📌 Depuis la version <code>1.9.0</code> le modèle de la table a évolué et la propriété `DsfrDataTable<br/>"
+        "📌 Depuis la version <code>1.9.0</code> le modèle de la table a évolué et la propriété <code>DsfrDataTable#titles</code> qui permettait de<br/>",
+        "décrire les entêtes des colonnes a été dépréciée en faveur de la propriété <code>DsfrDataTable#columns</code>. Cette proprité est<br/>",
+        "à présent de type \"tableau\" ce qui permet d'afficher les colonnes selon leur ordre d'insertion.<br/>",
+        "Auparavant, il fallait composer avec le tri alphabétique opéré automatiquement sur les clés par le pipe <code>keyvalue</code>.<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -8162,7 +8129,6 @@
         "<br/>",
         "- une icône à gauche du titre - optionnel.<br/>",
         "- un titre cliquable.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -8264,7 +8230,6 @@
         "<br/>",
         "🔥 Depuis la version 1.4.0, si le tag possède un <code>id</code> défini par l'utilisateur, ce qui est<br/>",
         "recommandé, un événement de type <code>DsfrTagEvent</code> est émis à la place d'une simple chaîne de caractères.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -8543,7 +8508,6 @@
         "- <i>Tag</i> : <code>dsfr-tile</code><br/>",
         "<br/>",
         "👆 Par défault, la taille de la tuile est en taille <code>MD</code> (médium).<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -8928,7 +8892,6 @@
         "- <i>Module</i> : <i>standalone</i><br/>",
         "- <i>Composant</i> : <code>DsfrTooltipButtonComponent</code><br/>",
         "- <i>Directive</i> : <code>tooltip-button</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -8978,7 +8941,6 @@
         "- <i>Tag</i> : <code>dsfr-transcription</code><br/>",
         "<br/>",
         "👆 Le contenu peut être un texte simple défini par la propriété <code>content</code>.<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -9040,7 +9002,6 @@
         "- <i>Module</i> : <code>DsfrTranslateModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrTranslateComponent</code><br/>",
         "- <i>Tag</i> : <code>dsfr-translate</code><br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
@@ -9117,7 +9078,6 @@
         "- <i>Module</i> : <code>DsfrUploadModule</code><br/>",
         "- <i>Composant</i> : <code>DsfrUploadComponent</code><br/>",
         "- <i>Tags</i> : <code>dsfr-form-upload, dsfr-upload</code> (🔥 <code>dsfr-upload</code> est déprécié depuis la version 1.4.0)<br/>",
-        "<br/>",
         "<br/>"
       ],
       "group": "Design de l'état",
