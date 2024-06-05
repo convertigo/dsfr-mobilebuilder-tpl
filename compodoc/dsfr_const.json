@@ -1,0 +1,268 @@
+{
+	"DsfrAlertSizeConst": {
+		"SM": "SM",
+		"MD": "MD"
+	},
+	"DsfrBadgeSizeConst": {
+		"SM": "SM",
+		"MD": "MD"
+	},
+	"DsfrBadgeSeverityConst": {
+		"NEW": "new",
+		"INFO": "info",
+		"SUCCESS": "success",
+		"WARNING": "warning",
+		"ERROR": "error"
+	},
+	"DsfrButtonTypeConst": {
+		"SUBMIT": "submit",
+		"RESET": "reset",
+		"BUTTON": "button"
+	},
+	"DsfrButtonVariantConst": {
+		"PRIMARY": "primary",
+		"SECONDARY": "secondary",
+		"TERTIARY": "tertiary",
+		"TERTIARY_NO_OUTLINE": "tertiary-no-outline"
+	},
+	"DsfrAlignConst": {
+		"DEFAULT": "default",
+		"RIGHT": "right",
+		"BETWEEN": "between",
+		"CENTER": "center",
+		"REVERSE": "reverse"
+	},
+	"DsfrInlineConst": {
+		"NEVER": "never",
+		"ALWAYS": "always",
+		"FROM_SM": "SM",
+		"FROM_MD": "MD",
+		"FROM_LG": "LG"
+	},
+	"DsfrPanelBackgroundConst": {
+		"DEFAULT": "default",
+		"GREY": "grey",
+		"TRANSPARENT": "transparent"
+	},
+	"DsfrPanelBorderConst": {
+		"DEFAULT": "default",
+		"NO_BORDER": "no-border",
+		"SHADOW": "shadow"
+	},
+	"DsfrCardBackgroundConst": {
+		"DEFAULT": "default",
+		"GREY": "grey",
+		"TRANSPARENT": "transparent"
+	},
+	"DsfrCardBorderConst": {
+		"DEFAULT": "default",
+		"NO_BORDER": "no-border",
+		"SHADOW": "shadow"
+	},
+	"DsfrImageFitConst": {
+		"FILL": "fill",
+		"CONTAIN": "contain",
+		"COVER": "cover",
+		"NONE": "none",
+		"SCALE_DOWN": "scale-down"
+	},
+	"DsfrImageRatioConst": {
+		"RATIO_32_9": "16:9/2",
+		"RATIO_16_9": "16:9",
+		"RATIO_3_2": "3:2",
+		"RATIO_4_3": "4:3",
+		"RATIO_1_1": "1:1",
+		"RATIO_3_4": "3:4",
+		"RATIO_2_3": "2:3"
+	},
+	"DsfrImageTypeConst": {
+		"IMG": "img",
+		"SVG": "svg"
+	},
+	"DsfrMediaConst": {
+		"IMAGE": "image",
+		"VIDEO": "video"
+	},
+	"DsfrDownloadVariantConst": {
+		"LINK": "link",
+		"BLOCK": "block"
+	},
+	"DsfrMimeTypeConst": {
+		"TEXT_CSS": "text/css",
+		"TEXT_CSV": "text/csv",
+		"TEXT_HTML": "text/html",
+		"TEXT_CALENDAR": "text/calendar",
+		"TEXT_PLAIN": "text/plain",
+		"TEXT_XML": "text/xml",
+		"FONT_OTF": "font/otf",
+		"FONT_TTF": "font/ttf",
+		"FONT_WOFF": "font/woff",
+		"FONT_WOFF2": "font/woff2",
+		"IMAGE_BMP": "image/bmp",
+		"IMAGE_GIF": "image/gif",
+		"IMAGE_ICON": "image/x-icon",
+		"IMAGE_JPEG": "image/jpeg",
+		"IMAGE_PNG": "image/png",
+		"IMAGE_SVG": "image/svg+xml",
+		"IMAGE_TIFF": "image/tiff",
+		"IMAGE_WEBP": "image/webp",
+		"AUDIO_3GPP": "audio/3gpp",
+		"AUDIO_3GPP2": "audio/3gpp2",
+		"AUDIO_ACC": "audio/aac",
+		"AUDIO_OGG": "audio/ogg",
+		"AUDIO_MIDI": "audio/midi",
+		"AUDIO_WAV": "audio/x-wav",
+		"AUDIO_WEBM": "audio/webm",
+		"VIDEO_3GPP": "video/3gpp",
+		"VIDEO_3GPP2": "video/3gpp2",
+		"VIDEO_MPEG": "video/mpeg",
+		"VIDEO_OGG": "video/ogg",
+		"VIDEO_WEBM": "video/webm",
+		"APPLICATION_ABIWORD": "application/x-abiword",
+		"APPLICATION_CSH": "application/x-csh",
+		"APPLICATION_EPUB": "application/epub+zip",
+		"APPLICATION_FLASH": "application/x-shockwave-flash",
+		"APPLICATION_FORM_URLENCODED": "application/x-www-form-urlencoded",
+		"APPLICATION_JAVASCRIPT": "application/javascript",
+		"APPLICATION_JSON": "application/json",
+		"APPLICATION_OCTET_STREAM": "application/octet-stream",
+		"APPLICATION_OGG": "application/ogg",
+		"APPLICATION_PDF": "application/pdf",
+		"APPLICATION_RTF": "application/rtf",
+		"APPLICATION_TYPESCRIPT": "application/typescript",
+		"APPLICATION_XML": "application/xml",
+		"APPLICATION_XML_ATOM": "application/atom+xml",
+		"APPLICATION_XML_SVG": "application/svg+xml",
+		"APPLICATION_XML_XHTML": "application/xhtml+xml",
+		"APPLICATION_XML_XUL": "application/vnd.mozilla.xul+xml",
+		"ARCHIVE_7Z_COMPRESSED": "application/x-7z-compressed",
+		"ARCHIVE_BZIP": "application/x-bzip",
+		"ARCHIVE_BZIP2": "application/x-bzip2",
+		"ARCHIVE_JAVA": "application/java-archive",
+		"ARCHIVE_GZIP": "application/gzip",
+		"ARCHIVE_RAR_COMPRESSED": "application/x-rar-compressed",
+		"ARCHIVE_TAR": "application/x-tar",
+		"ARCHIVE_RAR": "application/vnd.rar",
+		"ARCHIVE_ZIP": "application/zip",
+		"ARCHIVE_ZIP_COMPRESSED": "application/x-zip-compressed",
+		"MS_FONT_OBJECT": "application/vnd.ms-fontobject",
+		"MS_EXCEL": "application/vnd.ms-excel",
+		"MS_EXCEL_XML": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+		"MS_POWERPOINT": "application/vnd.ms-powerpoint",
+		"MS_POWERPOINT_XML": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+		"MS_VIDEO": "video/x-msvideo",
+		"MS_VISIO": "application/vnd.visio",
+		"MS_WORD": "application/msword",
+		"MS_WORD_XML": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+		"MULTIPART_FORM_DATA": "multipart/form-data",
+		"SCRIPT_SHELL": "application/x-sh",
+		"OPEN_PRESENTATION": "application/vnd.oasis.opendocument.presentation",
+		"OPEN_SPREADSHEET": "application/vnd.oasis.opendocument.spreadsheet",
+		"OPEN_TEXT": "application/vnd.oasis.opendocument.text"
+	},
+	"DsfrFollowNameConst": {
+		"DAILYMOTION": "dailymotion",
+		"FACEBOOK": "facebook",
+		"GITHUB": "github",
+		"INSTAGRAM": "instagram",
+		"LINKEDIN": "linkedin",
+		"MASTODON": "mastodon",
+		"SNAPCHAT": "snapchat",
+		"TELEGRAM": "telegram",
+		"TIKTOK": "tiktok",
+		"TWITCH": "twitch",
+		"TWITTER": "twitter",
+		"X": "twitter-x",
+		"VIMEO": "vimeo",
+		"YOUTUBE": "youtube"
+	},
+	"DsfrFollowTypeConst": {
+		"NETWORKS": "networks",
+		"NEWSLETTER": "newsletter",
+		"NEWSLETTER_MAIL": "newsletter-mail",
+		"NEWSLETTER_NETWORKS": "newsletter-networks",
+		"NEWSLETTER_NETWORKS_MAIL": "newsletter-networks-mail"
+	},
+	"DsfrShareNameConst": {
+		"FACEBOOK": "facebook",
+		"LINKEDIN": "linkedin",
+		"MAIL": "mail",
+		"MASTODON": "mastodon",
+		"TWITTER": "twitter",
+		"X": "twitter-x"
+	},
+	"DsfrTagModeConst": {
+		"DEFAULT": "default",
+		"CLICKABLE": "clickable",
+		"SELECTABLE": "selectable",
+		"DELETABLE": "deletable"
+	},
+	"DsfrInputTypeConst": {
+		"DATE": "date",
+		"DATE_TIME_LOCAL": "datetime-local",
+		"EMAIL": "email",
+		"NUMBER": "number",
+		"PASSWORD": "password",
+		"SEARCH": "search",
+		"TEL": "tel",
+		"TEXT": "text",
+		"TEXTAREA": "textarea",
+		"TIME": "time"
+	},
+	"DsfrInputModeConst": {
+		"NONE": "none",
+		"TEXT": "text",
+		"DECIMAL": "decimal",
+		"NUMERIC": "numeric",
+		"TEL": "tel",
+		"SEARCH": "search",
+		"EMAIL": "email",
+		"URL": "url"
+	},
+	"DsfrHeadingLevelConst": {
+		"NONE": "none",
+		"H2": "H2",
+		"H3": "H3",
+		"H4": "H4",
+		"H5": "H5",
+		"H6": "H6"
+	},
+	"DsfrLinkTargetConst": {
+		"BLANK": "_blank",
+		"SELF": "_self",
+		"PARENT": "_parent",
+		"TOP": "_top"
+	},
+	"DsfrTargetLinkConst": {
+		"BLANK": "_blank",
+		"SELF": "_self",
+		"PARENT": "_parent",
+		"TOP": "_top"
+	},
+	"DsfrPositionConst": {
+		"LEFT": "left",
+		"RIGHT": "right"
+	},
+	"DsfrSeverityConst": {
+		"INFO": "info",
+		"SUCCESS": "success",
+		"WARNING": "warning",
+		"ERROR": "error"
+	},
+	"DsfrSizeConst": {
+		"SM": "SM",
+		"MD": "MD",
+		"LG": "LG"
+	},
+	"DsfrTextSizeConst": {
+		"XS": "XS",
+		"SM": "SM",
+		"MD": "MD",
+		"LG": "LG",
+		"XL": "XL"
+	},
+	"DsfrFileSizeUnitConst": {
+		"BYTES": "bytes",
+		"OCTETS": "octets"
+	}
+}
