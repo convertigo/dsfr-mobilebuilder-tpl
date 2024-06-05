@@ -1,0 +1,9 @@
+↑convertigo: 8.0.0.m006
+↓mobilebuilder_tpl_dsfr [core.Project]: 
+  comment: |
+    DSFR MobileBuilder Template project
+    
+    Resources of this project are used as template to build a NGX Builder application.
+  httpSessionTimeout: 300
+  version: 1.0
+  ↓void [connectors.HttpConnector]: 🗏 connectors/void.yaml
