@@ -170,8 +170,8 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-address|Definit un composant <i>DsfrAddressComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "## Aperçu<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -989,8 +989,19 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-callout|Definit un composant <i>DsfrCalloutComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Mise en avant (callout)<br/>",
+        "<br/>",
+        "La mise en avant permet à l’utilisateur de distinguer rapidement une information qui vient compléter le contenu<br/>",
+        "consulté.<br/>",
+        "<br/>",
+        "Cf. Système Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/mise-en-avant\">DsfrCallout</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrCallOutModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrCallOutComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-callout</code><br/>",
+        "<br/>",
+        "---<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -2131,8 +2142,8 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-download|Definit un composant <i>DsfrDownloadComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "## Aperçu<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -2867,59 +2878,15 @@
       "icon16": "dsfr_16x16.png",
       "icon32": "dsfr_32x32.png",
       "properties": {
-        "ariaAutocomplete": {
-          "attr": "[ariaAutocomplete]",
-          "label": "ariaAutocomplete",
-          "description": "<p>Type: <code>string</code></p>",
-          "type": "string",
+        "rows": {
+          "attr": "[rows]",
+          "label": "rows",
+          "description": "<p>Type &#39;textarea&#39; : nombre de lignes.</p>\n<p>Type: <code>number</code></p>",
+          "type": "number",
           "value": false,
           "values": [
             false,
             true
-          ]
-        },
-        "ariaExpanded": {
-          "attr": "[ariaExpanded]",
-          "label": "ariaExpanded",
-          "description": "<p>Type: <code>boolean</code></p>",
-          "type": "boolean",
-          "value": "false",
-          "values": [
-            "false",
-            "true"
-          ]
-        },
-        "ariaLabel": {
-          "attr": "[ariaLabel]",
-          "label": "ariaLabel",
-          "description": "<p>L&#39;input ariaLabel est utilisé pour définir une légende non visible associée à un élément HTML dont le sens est\ntransmis uniquement par le visuel.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
-          ]
-        },
-        "autocomplete": {
-          "attr": "[autocomplete]",
-          "label": "autocomplete",
-          "description": "<p>Spécifie le type de l&#39;auto-complete (email, name, etc.).</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
-          ]
-        },
-        "autoCorrect": {
-          "attr": "[autoCorrect]",
-          "label": "autoCorrect",
-          "description": "<p>Type: <code>boolean</code></p>",
-          "type": "boolean",
-          "value": "true",
-          "values": [
-            "false",
-            "true"
           ]
         },
         "buttonAriaLabel": {
@@ -3004,10 +2971,10 @@
             "tertiary-no-outline"
           ]
         },
-        "customClass": {
-          "attr": "[customClass]",
-          "label": "customClass",
-          "description": "<p>Ajout d&#39;un style spécifique, permet par exemple de la limiter la largeur d&#39;un input.</p>\n<p>Type: <code>string</code></p>",
+        "ariaAutocomplete": {
+          "attr": "[ariaAutocomplete]",
+          "label": "ariaAutocomplete",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-autocomplete</code>.<br />\nL&#39;attribut <code>aria-autocomplete</code> indique si la saisie de texte peut déclencher l&#39;affichage d&#39;une ou plusieurs\nprédictions de la valeur prévue par l&#39;utilisateur pour une zone de liste déroulante, une zone de recherche ou\nune zone de texte et spécifie comment les prédictions seront présentées si elles sont effectuées.\nEx : <code>ariaAutocomplete=&quot;list&quot;</code> lorsque la saisie d&#39;une valeur fait apparaitre une liste de suggestions.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -3015,10 +2982,54 @@
             true
           ]
         },
-        "error": {
-          "attr": "[error]",
-          "label": "error",
-          "description": "<p>Message d&#39;erreur, quand il est présent les couleurs du contrôle changent.</p>\n<p>Type: <code>string</code></p>",
+        "ariaExpanded": {
+          "attr": "[ariaExpanded]",
+          "label": "ariaExpanded",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-expanded</code>.<br />\nL&#39;attribut <code>aria-expanded</code> est défini sur un élément pour indiquer si un contrôle est développé ou réduit,\net si les éléments contrôlés sont affichés ou masqués. <br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": false,
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "ariaLabel": {
+          "attr": "[ariaLabel]",
+          "label": "ariaLabel",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-label</code>.<br />\nL&#39;attribut <code>aria-label</code> est utilisé pour définir une légende non visible associée à un élément HTML dont le\nsens est transmis uniquement par le visuel.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
+        "autocomplete": {
+          "attr": "[autocomplete]",
+          "label": "autocomplete",
+          "description": "<p>L&#39;attribut HTML de saisie semi-automatique permet aux développeurs Web de spécifier l&#39;éventuelle autorisation\ndont dispose l&#39;agent utilisateur pour fournir une assistance automatisée dans le remplissage des valeurs des\nchamps du formulaire, ainsi que des conseils au navigateur quant au type d&#39;informations attendues dans le champ.\nEx : email, name, etc.</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
+        "autoCorrect": {
+          "attr": "[autoCorrect]",
+          "label": "autoCorrect",
+          "description": "<p>Une chaîne de caractères, on ou off, qui indique si la correction automatique est activée.\n<a href=\"https://developer.mozilla.org/fr/docs/Web/HTML/Element/input#autocorrect\">Safari uniquement</a>.</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": "true",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "customClass": {
+          "attr": "[customClass]",
+          "label": "customClass",
+          "description": "<p>Ajout d&#39;un style spécifique, permet par exemple de la limiter la largeur d&#39;un input.</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -3070,6 +3081,17 @@
             true
           ]
         },
+        "message": {
+          "attr": "[message]",
+          "label": "message",
+          "description": "<p>Message d&#39;information lié au composant</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": "undefined",
+          "values": [
+            false,
+            true
+          ]
+        },
         "min": {
           "attr": "[min]",
           "label": "min",
@@ -3103,9 +3125,9 @@
             true
           ]
         },
-        "placeHolder": {
-          "attr": "[placeHolder]",
-          "label": "placeHolder",
+        "placeholder": {
+          "attr": "[placeholder]",
+          "label": "placeholder",
           "description": "<p>Placeholder de l&#39;input.</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
@@ -3128,7 +3150,7 @@
         "role": {
           "attr": "[role]",
           "label": "role",
-          "description": "<p>Type: <code>string</code></p>",
+          "description": "<p>👓 Les <a href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles\">rôles ARIA</a> fournissent une\nsignification sémantique au contenu, permettant aux lecteurs d&#39;écran et à d&#39;autres outils de présenter et\nde prendre en charge l&#39;interaction avec un objet d&#39;une manière cohérente avec les attentes des utilisateurs\nconcernant ce type d&#39;objet. Les rôles ARIA peuvent être utilisés pour décrire des éléments qui n&#39;existent\npas nativement en HTML ou qui existent, mais ne bénéficient pas encore d&#39;une prise en charge complète par\nle navigateur. Ex : <code>toolbar</code>, <code>tabpanel</code>, etc.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -3136,15 +3158,18 @@
             true
           ]
         },
-        "rows": {
-          "attr": "[rows]",
-          "label": "rows",
-          "description": "<p>Type &#39;textarea&#39; : nombre de lignes.</p>\n<p>Type: <code>number</code></p>",
-          "type": "number",
+        "severity": {
+          "attr": "[severity]",
+          "label": "severity",
+          "description": "<p>Représente la sévérité du message. 🔥 <code>WARNING</code> n&#39;est pas géré dans cette version.</p>\n<p>Type: <code>DsfrSeverity</code><br><code>info,success,warning,error</code></p>",
+          "type": "string",
           "value": false,
           "values": [
             false,
-            true
+            "info",
+            "success",
+            "warning",
+            "error"
           ]
         },
         "spellCheck": {
@@ -3176,17 +3201,6 @@
             "text",
             "textarea",
             "time"
-          ]
-        },
-        "valid": {
-          "attr": "[valid]",
-          "label": "valid",
-          "description": "<p>Message de validation, quand il est présent les couleurs du contrôle changent.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
           ]
         },
         "ariaControls": {
@@ -3271,6 +3285,10 @@
         "buttonSelect": {
           "attr": "(buttonSelect)",
           "description": "<p>Emission de l&#39;événement si le type du bouton est != de <code>submit</code>.</p>\n"
+        },
+        "patternValueChange": {
+          "attr": "(patternValueChange)",
+          "description": "<p>Émet un événement, si la propriété <code>pattern</code> est définie, à chaque changement de la valeur de l&#39;input avec\nune valeur booléenne indiquant si le <code>pattern</code> est validé ou non.</p>\n"
         }
       },
       "config": {
@@ -3452,59 +3470,15 @@
       "icon16": "dsfr_16x16.png",
       "icon32": "dsfr_32x32.png",
       "properties": {
-        "ariaAutocomplete": {
-          "attr": "[ariaAutocomplete]",
-          "label": "ariaAutocomplete",
-          "description": "<p>Type: <code>string</code></p>",
-          "type": "string",
+        "rows": {
+          "attr": "[rows]",
+          "label": "rows",
+          "description": "<p>Type &#39;textarea&#39; : nombre de lignes.</p>\n<p>Type: <code>number</code></p>",
+          "type": "number",
           "value": false,
           "values": [
             false,
             true
-          ]
-        },
-        "ariaExpanded": {
-          "attr": "[ariaExpanded]",
-          "label": "ariaExpanded",
-          "description": "<p>Type: <code>boolean</code></p>",
-          "type": "boolean",
-          "value": "false",
-          "values": [
-            "false",
-            "true"
-          ]
-        },
-        "ariaLabel": {
-          "attr": "[ariaLabel]",
-          "label": "ariaLabel",
-          "description": "<p>L&#39;input ariaLabel est utilisé pour définir une légende non visible associée à un élément HTML dont le sens est\ntransmis uniquement par le visuel.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
-          ]
-        },
-        "autocomplete": {
-          "attr": "[autocomplete]",
-          "label": "autocomplete",
-          "description": "<p>Spécifie le type de l&#39;auto-complete (email, name, etc.).</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
-          ]
-        },
-        "autoCorrect": {
-          "attr": "[autoCorrect]",
-          "label": "autoCorrect",
-          "description": "<p>Type: <code>boolean</code></p>",
-          "type": "boolean",
-          "value": "true",
-          "values": [
-            "false",
-            "true"
           ]
         },
         "buttonAriaLabel": {
@@ -3589,10 +3563,10 @@
             "tertiary-no-outline"
           ]
         },
-        "customClass": {
-          "attr": "[customClass]",
-          "label": "customClass",
-          "description": "<p>Ajout d&#39;un style spécifique, permet par exemple de la limiter la largeur d&#39;un input.</p>\n<p>Type: <code>string</code></p>",
+        "ariaAutocomplete": {
+          "attr": "[ariaAutocomplete]",
+          "label": "ariaAutocomplete",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-autocomplete</code>.<br />\nL&#39;attribut <code>aria-autocomplete</code> indique si la saisie de texte peut déclencher l&#39;affichage d&#39;une ou plusieurs\nprédictions de la valeur prévue par l&#39;utilisateur pour une zone de liste déroulante, une zone de recherche ou\nune zone de texte et spécifie comment les prédictions seront présentées si elles sont effectuées.\nEx : <code>ariaAutocomplete=&quot;list&quot;</code> lorsque la saisie d&#39;une valeur fait apparaitre une liste de suggestions.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -3600,10 +3574,54 @@
             true
           ]
         },
-        "error": {
-          "attr": "[error]",
-          "label": "error",
-          "description": "<p>Message d&#39;erreur, quand il est présent les couleurs du contrôle changent.</p>\n<p>Type: <code>string</code></p>",
+        "ariaExpanded": {
+          "attr": "[ariaExpanded]",
+          "label": "ariaExpanded",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-expanded</code>.<br />\nL&#39;attribut <code>aria-expanded</code> est défini sur un élément pour indiquer si un contrôle est développé ou réduit,\net si les éléments contrôlés sont affichés ou masqués. <br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": false,
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "ariaLabel": {
+          "attr": "[ariaLabel]",
+          "label": "ariaLabel",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-label</code>.<br />\nL&#39;attribut <code>aria-label</code> est utilisé pour définir une légende non visible associée à un élément HTML dont le\nsens est transmis uniquement par le visuel.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
+        "autocomplete": {
+          "attr": "[autocomplete]",
+          "label": "autocomplete",
+          "description": "<p>L&#39;attribut HTML de saisie semi-automatique permet aux développeurs Web de spécifier l&#39;éventuelle autorisation\ndont dispose l&#39;agent utilisateur pour fournir une assistance automatisée dans le remplissage des valeurs des\nchamps du formulaire, ainsi que des conseils au navigateur quant au type d&#39;informations attendues dans le champ.\nEx : email, name, etc.</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
+        "autoCorrect": {
+          "attr": "[autoCorrect]",
+          "label": "autoCorrect",
+          "description": "<p>Une chaîne de caractères, on ou off, qui indique si la correction automatique est activée.\n<a href=\"https://developer.mozilla.org/fr/docs/Web/HTML/Element/input#autocorrect\">Safari uniquement</a>.</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": "true",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "customClass": {
+          "attr": "[customClass]",
+          "label": "customClass",
+          "description": "<p>Ajout d&#39;un style spécifique, permet par exemple de la limiter la largeur d&#39;un input.</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -3655,6 +3673,17 @@
             true
           ]
         },
+        "message": {
+          "attr": "[message]",
+          "label": "message",
+          "description": "<p>Message d&#39;information lié au composant</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": "undefined",
+          "values": [
+            false,
+            true
+          ]
+        },
         "min": {
           "attr": "[min]",
           "label": "min",
@@ -3688,9 +3717,9 @@
             true
           ]
         },
-        "placeHolder": {
-          "attr": "[placeHolder]",
-          "label": "placeHolder",
+        "placeholder": {
+          "attr": "[placeholder]",
+          "label": "placeholder",
           "description": "<p>Placeholder de l&#39;input.</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
@@ -3713,7 +3742,7 @@
         "role": {
           "attr": "[role]",
           "label": "role",
-          "description": "<p>Type: <code>string</code></p>",
+          "description": "<p>👓 Les <a href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles\">rôles ARIA</a> fournissent une\nsignification sémantique au contenu, permettant aux lecteurs d&#39;écran et à d&#39;autres outils de présenter et\nde prendre en charge l&#39;interaction avec un objet d&#39;une manière cohérente avec les attentes des utilisateurs\nconcernant ce type d&#39;objet. Les rôles ARIA peuvent être utilisés pour décrire des éléments qui n&#39;existent\npas nativement en HTML ou qui existent, mais ne bénéficient pas encore d&#39;une prise en charge complète par\nle navigateur. Ex : <code>toolbar</code>, <code>tabpanel</code>, etc.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -3721,15 +3750,18 @@
             true
           ]
         },
-        "rows": {
-          "attr": "[rows]",
-          "label": "rows",
-          "description": "<p>Type &#39;textarea&#39; : nombre de lignes.</p>\n<p>Type: <code>number</code></p>",
-          "type": "number",
+        "severity": {
+          "attr": "[severity]",
+          "label": "severity",
+          "description": "<p>Représente la sévérité du message. 🔥 <code>WARNING</code> n&#39;est pas géré dans cette version.</p>\n<p>Type: <code>DsfrSeverity</code><br><code>info,success,warning,error</code></p>",
+          "type": "string",
           "value": false,
           "values": [
             false,
-            true
+            "info",
+            "success",
+            "warning",
+            "error"
           ]
         },
         "spellCheck": {
@@ -3761,17 +3793,6 @@
             "text",
             "textarea",
             "time"
-          ]
-        },
-        "valid": {
-          "attr": "[valid]",
-          "label": "valid",
-          "description": "<p>Message de validation, quand il est présent les couleurs du contrôle changent.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
           ]
         },
         "ariaControls": {
@@ -3856,6 +3877,10 @@
         "buttonSelect": {
           "attr": "(buttonSelect)",
           "description": "<p>Emission de l&#39;événement si le type du bouton est != de <code>submit</code>.</p>\n"
+        },
+        "patternValueChange": {
+          "attr": "(patternValueChange)",
+          "description": "<p>Émet un événement, si la propriété <code>pattern</code> est définie, à chaque changement de la valeur de l&#39;input avec\nune valeur booléenne indiquant si le <code>pattern</code> est validé ou non.</p>\n"
         }
       },
       "config": {
@@ -4704,59 +4729,15 @@
       "icon16": "dsfr_16x16.png",
       "icon32": "dsfr_32x32.png",
       "properties": {
-        "ariaAutocomplete": {
-          "attr": "[ariaAutocomplete]",
-          "label": "ariaAutocomplete",
-          "description": "<p>Type: <code>string</code></p>",
-          "type": "string",
+        "rows": {
+          "attr": "[rows]",
+          "label": "rows",
+          "description": "<p>Type &#39;textarea&#39; : nombre de lignes.</p>\n<p>Type: <code>number</code></p>",
+          "type": "number",
           "value": false,
           "values": [
             false,
             true
-          ]
-        },
-        "ariaExpanded": {
-          "attr": "[ariaExpanded]",
-          "label": "ariaExpanded",
-          "description": "<p>Type: <code>boolean</code></p>",
-          "type": "boolean",
-          "value": "false",
-          "values": [
-            "false",
-            "true"
-          ]
-        },
-        "ariaLabel": {
-          "attr": "[ariaLabel]",
-          "label": "ariaLabel",
-          "description": "<p>L&#39;input ariaLabel est utilisé pour définir une légende non visible associée à un élément HTML dont le sens est\ntransmis uniquement par le visuel.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
-          ]
-        },
-        "autocomplete": {
-          "attr": "[autocomplete]",
-          "label": "autocomplete",
-          "description": "<p>Spécifie le type de l&#39;auto-complete (email, name, etc.).</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
-          ]
-        },
-        "autoCorrect": {
-          "attr": "[autoCorrect]",
-          "label": "autoCorrect",
-          "description": "<p>Type: <code>boolean</code></p>",
-          "type": "boolean",
-          "value": "true",
-          "values": [
-            "false",
-            "true"
           ]
         },
         "buttonAriaLabel": {
@@ -4841,10 +4822,10 @@
             "tertiary-no-outline"
           ]
         },
-        "customClass": {
-          "attr": "[customClass]",
-          "label": "customClass",
-          "description": "<p>Ajout d&#39;un style spécifique, permet par exemple de la limiter la largeur d&#39;un input.</p>\n<p>Type: <code>string</code></p>",
+        "ariaAutocomplete": {
+          "attr": "[ariaAutocomplete]",
+          "label": "ariaAutocomplete",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-autocomplete</code>.<br />\nL&#39;attribut <code>aria-autocomplete</code> indique si la saisie de texte peut déclencher l&#39;affichage d&#39;une ou plusieurs\nprédictions de la valeur prévue par l&#39;utilisateur pour une zone de liste déroulante, une zone de recherche ou\nune zone de texte et spécifie comment les prédictions seront présentées si elles sont effectuées.\nEx : <code>ariaAutocomplete=&quot;list&quot;</code> lorsque la saisie d&#39;une valeur fait apparaitre une liste de suggestions.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -4852,10 +4833,54 @@
             true
           ]
         },
-        "error": {
-          "attr": "[error]",
-          "label": "error",
-          "description": "<p>Message d&#39;erreur, quand il est présent les couleurs du contrôle changent.</p>\n<p>Type: <code>string</code></p>",
+        "ariaExpanded": {
+          "attr": "[ariaExpanded]",
+          "label": "ariaExpanded",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-expanded</code>.<br />\nL&#39;attribut <code>aria-expanded</code> est défini sur un élément pour indiquer si un contrôle est développé ou réduit,\net si les éléments contrôlés sont affichés ou masqués. <br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": false,
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "ariaLabel": {
+          "attr": "[ariaLabel]",
+          "label": "ariaLabel",
+          "description": "<p>👓 Correspond à l&#39;attribut <code>aria-label</code>.<br />\nL&#39;attribut <code>aria-label</code> est utilisé pour définir une légende non visible associée à un élément HTML dont le\nsens est transmis uniquement par le visuel.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
+        "autocomplete": {
+          "attr": "[autocomplete]",
+          "label": "autocomplete",
+          "description": "<p>L&#39;attribut HTML de saisie semi-automatique permet aux développeurs Web de spécifier l&#39;éventuelle autorisation\ndont dispose l&#39;agent utilisateur pour fournir une assistance automatisée dans le remplissage des valeurs des\nchamps du formulaire, ainsi que des conseils au navigateur quant au type d&#39;informations attendues dans le champ.\nEx : email, name, etc.</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
+        "autoCorrect": {
+          "attr": "[autoCorrect]",
+          "label": "autoCorrect",
+          "description": "<p>Une chaîne de caractères, on ou off, qui indique si la correction automatique est activée.\n<a href=\"https://developer.mozilla.org/fr/docs/Web/HTML/Element/input#autocorrect\">Safari uniquement</a>.</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": "true",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "customClass": {
+          "attr": "[customClass]",
+          "label": "customClass",
+          "description": "<p>Ajout d&#39;un style spécifique, permet par exemple de la limiter la largeur d&#39;un input.</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -4907,6 +4932,17 @@
             true
           ]
         },
+        "message": {
+          "attr": "[message]",
+          "label": "message",
+          "description": "<p>Message d&#39;information lié au composant</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": "undefined",
+          "values": [
+            false,
+            true
+          ]
+        },
         "min": {
           "attr": "[min]",
           "label": "min",
@@ -4940,9 +4976,9 @@
             true
           ]
         },
-        "placeHolder": {
-          "attr": "[placeHolder]",
-          "label": "placeHolder",
+        "placeholder": {
+          "attr": "[placeholder]",
+          "label": "placeholder",
           "description": "<p>Placeholder de l&#39;input.</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
@@ -4965,7 +5001,7 @@
         "role": {
           "attr": "[role]",
           "label": "role",
-          "description": "<p>Type: <code>string</code></p>",
+          "description": "<p>👓 Les <a href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles\">rôles ARIA</a> fournissent une\nsignification sémantique au contenu, permettant aux lecteurs d&#39;écran et à d&#39;autres outils de présenter et\nde prendre en charge l&#39;interaction avec un objet d&#39;une manière cohérente avec les attentes des utilisateurs\nconcernant ce type d&#39;objet. Les rôles ARIA peuvent être utilisés pour décrire des éléments qui n&#39;existent\npas nativement en HTML ou qui existent, mais ne bénéficient pas encore d&#39;une prise en charge complète par\nle navigateur. Ex : <code>toolbar</code>, <code>tabpanel</code>, etc.<br />\nValeur par défaut : <code>undefined</code> (n&#39;apparait pas comme attribut dans l&#39;html).</p>\n<p>Type: <code>string</code></p>",
           "type": "string",
           "value": false,
           "values": [
@@ -4973,15 +5009,18 @@
             true
           ]
         },
-        "rows": {
-          "attr": "[rows]",
-          "label": "rows",
-          "description": "<p>Type &#39;textarea&#39; : nombre de lignes.</p>\n<p>Type: <code>number</code></p>",
-          "type": "number",
+        "severity": {
+          "attr": "[severity]",
+          "label": "severity",
+          "description": "<p>Représente la sévérité du message. 🔥 <code>WARNING</code> n&#39;est pas géré dans cette version.</p>\n<p>Type: <code>DsfrSeverity</code><br><code>info,success,warning,error</code></p>",
+          "type": "string",
           "value": false,
           "values": [
             false,
-            true
+            "info",
+            "success",
+            "warning",
+            "error"
           ]
         },
         "spellCheck": {
@@ -5013,17 +5052,6 @@
             "text",
             "textarea",
             "time"
-          ]
-        },
-        "valid": {
-          "attr": "[valid]",
-          "label": "valid",
-          "description": "<p>Message de validation, quand il est présent les couleurs du contrôle changent.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
-          "values": [
-            false,
-            true
           ]
         },
         "ariaControls": {
@@ -5108,6 +5136,10 @@
         "buttonSelect": {
           "attr": "(buttonSelect)",
           "description": "<p>Emission de l&#39;événement si le type du bouton est != de <code>submit</code>.</p>\n"
+        },
+        "patternValueChange": {
+          "attr": "(patternValueChange)",
+          "description": "<p>Émet un événement, si la propriété <code>pattern</code> est définie, à chaque changement de la valeur de l&#39;input avec\nune valeur booléenne indiquant si le <code>pattern</code> est validé ou non.</p>\n"
         }
       },
       "config": {
@@ -5738,8 +5770,16 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-highlight|Definit un composant <i>DsfrHighlightComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Mise en exergue (highlight)<br/>",
+        "<br/>",
+        "La mise en exergue (<i>highlight</i>) permet à l’utilisateur de distinguer et repérer une information facilement.<br/>",
+        "<br/>",
+        "Cf. Système Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/mise-en-exergue\">DsfrHighlight</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrHighlightModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrHighlightComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-highlight</code><br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -6219,8 +6259,8 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-logo|Definit un composant <i>DsfrLogoComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "## Aperçu<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -6466,8 +6506,8 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-name|Definit un composant <i>DsfrNameComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "## Aperçu<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -6476,18 +6516,18 @@
         "addFirstName": {
           "attr": "[addFirstName]",
           "label": "addFirstName",
-          "description": "<p>Permet d&#39;afficher un bouton qui ajoute un nouveau champ de de saisi pour un prénom additionnel.</p>\n<p>Type: <code>string</code></p>",
-          "type": "string",
-          "value": false,
+          "description": "<p>Permet d&#39;afficher un bouton qui ajoute un nouveau champ de de saisi pour un prénom additionnel.</p>\n<p>Type: <code>boolean</code></p>",
+          "type": "boolean",
+          "value": "false",
           "values": [
-            false,
-            true
+            "false",
+            "true"
           ]
         },
         "country": {
           "attr": "[country]",
           "label": "country",
-          "description": "<p>Data du select de pays.</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/select.model.ts\"><code>DsfrSelect</code></a>",
+          "description": "<p>Data du selecteur de pays (optionnel).</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/select.model.ts\"><code>DsfrSelect</code></a>",
           "type": "object",
           "value": false,
           "values": [
@@ -6498,7 +6538,7 @@
         "firstNames": {
           "attr": "[firstNames]",
           "label": "firstNames",
-          "description": "<p>Data du champs Firstname.</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/input.model.ts\"><code>DsfrInputText[]</code></a>",
+          "description": "<p>Data du champ firstname.</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/input.model.ts\"><code>DsfrInputText[]</code></a>",
           "type": "object",
           "value": false,
           "values": [
@@ -6509,7 +6549,7 @@
         "lastName": {
           "attr": "[lastName]",
           "label": "lastName",
-          "description": "<p>Data du champs name.</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/input.model.ts\"><code>DsfrInputText</code></a>",
+          "description": "<p>Data du champ name.</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/input.model.ts\"><code>DsfrInputText</code></a>",
           "type": "object",
           "value": false,
           "values": [
@@ -6531,7 +6571,7 @@
         "noFirstName": {
           "attr": "[noFirstName]",
           "label": "noFirstName",
-          "description": "<p>Permet d&#39;afficher l&#39;option &quot;je n&#39;ai pas de prénom&quot;.</p>\n<p>Type: <code>boolean</code></p>",
+          "description": "<p>Permet d&#39;afficher l&#39;option &quot;Je n&#39;ai pas de prénom&quot;.</p>\n<p>Type: <code>boolean</code></p>",
           "type": "boolean",
           "value": "false",
           "values": [
@@ -6542,7 +6582,7 @@
         "usualName": {
           "attr": "[usualName]",
           "label": "usualName",
-          "description": "<p>Permet d&#39;indiquer un nom d&#39;usage.</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/input.model.ts\"><code>DsfrInputText</code></a>",
+          "description": "<p>Permet d&#39;indiquer un nom d&#39;usage (optionnel).</p>\n<p>Type: <a href=\"https://gitlab.mim-libre.fr/men/transverse/dsmen/ngx-dsfr-components/-/tree/1.10.3/projects/ngx-dsfr-components/src/lib/shared/models/input.model.ts\"><code>DsfrInputText</code></a>",
           "type": "object",
           "value": false,
           "values": [
@@ -6554,11 +6594,11 @@
       "events": {
         "addFirstNameSelect": {
           "attr": "(addFirstNameSelect)",
-          "description": "<p>Indique que c&#39;est cliqué et que l&#39;utilisateur doit intègrer un nouvel item dans &#39;firstnames&#39;.</p>\n"
+          "description": "<p>Notifie que l&#39;utilisateur a cliqué sur le bouton d&#39;ajout de prénom.</p>\n"
         },
         "deleteFirstNameSelect": {
           "attr": "(deleteFirstNameSelect)",
-          "description": "<p>Indique que le champs prénom supplémentaire doit être supprimé du tableau &#39;firstnames&#39;.</p>\n"
+          "description": "<p>Notifie la suppression d&#39;un prénom additionnel (le tableau &#39;firstnames&#39; devrait être mis à jour en conséquence).</p>\n"
         }
       },
       "config": {
@@ -6582,8 +6622,22 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-notice|Definit un composant <i>DsfrNoticeComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Bandeau d'informations (notice)<br/>",
+        "<br/>",
+        "Le bandeau d’information importante permet aux utilisateurs de voir ou d’accéder à une information importante et<br/>",
+        "temporaire.<br/>",
+        "<br/>",
+        "Il est affiché sur l’ensemble des pages en desktop et en mobile. Il affiche une information importante et urgente<br/>",
+        "(un usage trop fréquent risque de faire “disparaitre” ce bandeau).<br/>",
+        "<br/>",
+        "Cf. Système Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/bandeau-d-information-importante\">DsfrNotice</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrNoticeModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrNoticeComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-notice</code><br/>",
+        "<br/>",
+        "---<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -6655,6 +6709,17 @@
       "icon16": "dsfr_16x16.png",
       "icon32": "dsfr_32x32.png",
       "properties": {
+        "ariaLabel": {
+          "attr": "[ariaLabel]",
+          "label": "ariaLabel",
+          "description": "<p>Attribut ariaLabel permettant de contextualiser la pagination</p>\n<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
         "currentPage": {
           "attr": "[currentPage]",
           "label": "currentPage",
@@ -6750,8 +6815,16 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-quote|Definit un composant <i>DsfrQuoteComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Citation (quote)<br/>",
+        "<br/>",
+        "La citation permet de citer un texte dans une page éditoriale. La citation peut provenir d'un extrait d’un discours oral formulé par une tierce personne ou d’un texte écrit.<br/>",
+        "<br/>",
+        "Cf. Système Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/citation\">DsfrQuote</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrQuoteModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrQuoteComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-quote</code><br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -7205,8 +7278,8 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-search-bar|Definit un composant <i>DsfrSearchBarComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "## Aperçu<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -7604,8 +7677,40 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-sidemenu|Definit un composant <i>DsfrSidemenuComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Menu latéral (sidemenu)<br/>",
+        "<br/>",
+        "Le menu latéral permet aux utilisateurs de naviguer entre les différentes pages d’une rubrique ou d’un même thème.<br/>",
+        "Le menu latéral est un système de navigation vertical présentant une liste de liens placée à côté du contenu (à gauche<br/>",
+        "ou à droite de la page) et donnant accès jusqu'à <b>3 niveaux</b> d’arborescence.<br/>",
+        "<br/>",
+        "Cf. Système Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/menu-lateral\">DsfrSidemenu</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrSidemenuModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrSidemenuComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-sidemenu</code><br/>",
+        "<br/>",
+        "Un menu est décrit par le type <code>DsfrMenu</code> et chaque item par <code>DsfrMenuItem</code>.<br/>",
+        "<br/>",
+        "```typescript<br/>",
+        "/** Menu */<br/>",
+        "export interface DsfrMenu {<br/>",
+        "  /** Titre du menu (optionnel) */<br/>",
+        "  title?: string;<br/>",
+        "  /** Entrées du menu */<br/>",
+        "  items: DsfrMenuItem[];<br/>",
+        "}<br/>",
+        "<br/>",
+        "/** Entrée de menu */<br/>",
+        "export interface DsfrMenuItem extends DsfrLink {<br/>",
+        "  /** Indique le titre de rubrique */<br/>",
+        "  title?: string;<br/>",
+        "  /** Indique l'identifiant de la zone de menu contrôlée par cette entête de menu */<br/>",
+        "  controlId?: string;<br/>",
+        "  /* Entrées du menu (liens directs ou sous-menus si plusieurs niveaux) */<br/>",
+        "  subItems?: DsfrMenuItem[];<br/>",
+        "}<br/>",
+        "```<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -7745,7 +7850,12 @@
           ]
         }
       },
-      "events": {},
+      "events": {
+        "linkSelect": {
+          "attr": "(linkSelect)",
+          "description": "<p>Permet la gestion programmatique d&#39;une navigation initiée au click sur le lien si l&#39;input &#39;route&#39; est valorisé.\nLa valeur de la propriété &#39;route&#39; sera transmise.</p>\n"
+        }
+      },
       "config": {}
     },
     "DsfrStepperComponent": {
@@ -7755,8 +7865,18 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-stepper|Definit un composant <i>DsfrStepperComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Indicateur d'étapes (stepper)<br/>",
+        "<br/>",
+        "L’indicateur d'étape permet d’indiquer à l’utilisateur où il se trouve dans un formulaire ou dans une démarche.<br/>",
+        "Cet indicateur d'étape est utilisable dans le cas d’un processus linéaire, le composant ne permet pas de naviguer d’une<br/>",
+        "étape à une autre (pour cela, il faudra utiliser des boutons).<br/>",
+        "<br/>",
+        "Cf. Système Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/indicateur-d-etape\">DsfrStepper</a><br/>",
+        "<br/>",
+        "- <i>Module</i> : <code>DsfrStepperModule</code><br/>",
+        "- <i>Composant</i> : <code>DsfrStepperComponent</code><br/>",
+        "- <i>Tag</i> : <code>dsfr-stepper</code><br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",
@@ -8236,6 +8356,17 @@
       "icon16": "dsfr_16x16.png",
       "icon32": "dsfr_32x32.png",
       "properties": {
+        "ariaLabel": {
+          "attr": "[ariaLabel]",
+          "label": "ariaLabel",
+          "description": "<p>Type: <code>string</code></p>",
+          "type": "string",
+          "value": false,
+          "values": [
+            false,
+            true
+          ]
+        },
         "customClass": {
           "attr": "[customClass]",
           "label": "customClass",
@@ -8435,8 +8566,38 @@
       "category": "Design de l'état",
       "description": [
         "dsfr-tags-group|Definit un composant <i>DsfrTagsGroupComponent</i>.<br/>",
-        "<br/>Pas de documentation supplémentaire.",
-        "<br/>Voir Système de Design de l'État: <a href=\"https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/\">Composants</a>"
+        "# Groupe de tags (tags group)<br/>",
+        "<br/>",
+        "Les tags peuvent être utilisés à plusieurs dans des groupes de tags. Dans ce cas-là ils appliquent des espacements<br/>",
+        "préalablement définis par le DSFR.<br/>",
+        "<br/>",
+        "Les tags <code>&lt;dsfr-tag&gt;</code> peuvent être placés dans un groupe <code>&lt;dsfr-tags-group&gt;</code>,<br/>",
+        "qui peut également recevoir un tableau de <code>DsfrTag</code> :<br/>",
+        "<br/>",
+        "```typescript<br/>",
+        "/** Description d'un élément tag */<br/>",
+        "export interface DsfrTag {<br/>",
+        "  /** Libelle du tag. */<br/>",
+        "  label: string;<br/>",
+        "  /** Classe de l'icon  */<br/>",
+        "  icon?: string;<br/>",
+        "  /** Lien du tag à renseigner si le mode est 'clickable'. */<br/>",
+        "  href?: string;<br/>",
+        "  /** titre du tag */<br/>",
+        "  title?: string;<br/>",
+        "  /** Taille du tag (small ou médium). */<br/>",
+        "  small?: boolean;<br/>",
+        "  /*<b> Permet de personnaliser la couleur du tag. </b>/<br/>",
+        "  customClass?: string;<br/>",
+        "  /** Etat disabled du tag. */<br/>",
+        "  disabled?: boolean;<br/>",
+        "  /** Etat selected du tag. */<br/>",
+        "  selected?: boolean;<br/>",
+        "  /** Mode spécifique : default /selectable / clickable / deletable */<br/>",
+        "  mode?: DsfrTagMode;<br/>",
+        "}<br/>",
+        "```<br/>",
+        "<br/>"
       ],
       "group": "Design de l'état",
       "icon16": "dsfr_16x16.png",

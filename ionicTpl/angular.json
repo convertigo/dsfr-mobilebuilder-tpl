@@ -66,7 +66,15 @@
                   "output": "/" 
                 }
               ],
-              "styles": ["src/theme/variables.scss", "src/global.scss"],
+              "styles": [
+              	"src/theme/variables.scss",
+              	"src/global.scss",
+              	"./node_modules/@gouvfr/dsfr/dist/dsfr/dsfr.css",
+              	"./node_modules/@gouvfr/dsfr/dist/utility/utility.css"
+              ],
+              "scripts": [
+              	"./node_modules/@gouvfr/dsfr/dist/dsfr/dsfr.module.js"
+              ],
               "scripts": [],
               "aot": true,
               "vendorChunk": true,

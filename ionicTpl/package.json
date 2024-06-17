@@ -39,7 +39,8 @@
     "lodash": "4.17.21",
     "c8osdkangular": "4.0.20",
     "c8ocaf": "2.0.10",
-    "animate.css": "4.1.1"
+    "animate.css": "4.1.1",
+	"@edugouvfr/ngx-dsfr": "1.11.2"
   },
   "devDependencies": {
     "@angular-builders\/custom-webpack": "17.0.1",
