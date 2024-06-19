@@ -75,7 +75,6 @@
               "scripts": [
               	"./node_modules/@gouvfr/dsfr/dist/dsfr/dsfr.module.js"
               ],
-              "scripts": [],
               "aot": true,
               "vendorChunk": true,
               "extractLicenses": false,
